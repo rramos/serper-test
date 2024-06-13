@@ -8,7 +8,7 @@ url = "https://google.serper.dev/search"
 # Load environment variables from .env file
 load_dotenv()
 
-api_key = os.getenv('API_KEY')
+api_key = os.getenv('SERPER_API_KEY')
 
 # Search query
 query = "apple inc"
